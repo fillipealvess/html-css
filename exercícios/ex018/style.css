@@ -1,0 +1,10 @@
+@charset "UTF-8";
+@font-face {
+    font-family:'fonte nova' ;
+    src: url(Invisible-ExtraBold.otf);
+}
+body{
+}
+h1{
+    font-family:'fonte nova', 'Times New Roman', Times, serif;
+}
