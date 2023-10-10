@@ -1,0 +1,98 @@
+
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+
+#links{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+a{
+    text-decoration: none;
+    padding-top: 1rem;
+    padding-right: 2rem;
+    padding-bottom: 1rem;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: all .3s;
+}
+
+body{
+    background-color: #20394A;
+    height: 100%;
+}
+
+a:hover{
+    color: #FDC128;
+    font-size: 1.2rem;
+}
+
+nav > img{
+    height: 2rem;
+    width: 2rem;
+    box-shadow: 1px 4px 20px #FCC60E;
+    border-radius: 1rem;
+    margin-top: 0.5rem;
+    margin-right: 1rem;
+}
+
+
+
+
+#txt1{
+    color: #FDC128;
+    font-size: 4rem;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+#txt2{
+   font-weight: bold;
+    font-size: 4rem;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+p{
+    width: 35rem;
+    color: white;
+    
+}
+
+#campos > input{
+    width: 15rem;
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+
+}
+
+input{
+    padding: 1rem;
+    border-radius: 1.5rem;
+    background-color: #FCC60E;
+    margin-top: 2rem;
+}
+
+
+#enviar{
+    width: 5rem;
+    
+}
+
+#principal{
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+
+#textos{
+    justify-content: center;
+}
